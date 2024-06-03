@@ -78,13 +78,12 @@ document.addEventListener("DOMContentLoaded", () => {
   ];
 
   const tetrominoes = [L, Z, T, O, I];
-  //   const colors = ["#9b59b6", "#2980b9", "#27ae60", "#f1c40f", "#e74c3c"];
   const colors = [
     "radial-gradient(circle, rgba(155,89,182,1) 0%, rgba(142,68,173,1) 100%)",
-    "radial-gradient(circle, rgba(52,152,219,1) 0%, rgba(41,128,185,1) 100%)",
-    "radial-gradient(circle, rgba(46,204,113,1) 0%, rgba(39,174,96,1) 100%)",
-    "radial-gradient(circle, rgba(241,196,15,1) 0%, rgba(243,156,18,1) 100%)",
-    "radial-gradient(circle, rgba(231,76,60,1) 0%, rgba(192,57,43,1) 100%)",
+    "radial-gradient(circle, rgba(41,128,185,1) 0%, rgba(52,152,219,1)  100%)",
+    "radial-gradient(circle, rgba(39,174,96,1) 0%, rgba(46,204,113,1)  100%)",
+    "radial-gradient(circle, rgba(243,156,18,1) 0%, rgba(241,196,15,1)  100%)",
+    "radial-gradient(circle, rgba(192,57,43,1) 0%, rgba(231,76,60,1)  100%)",
   ];
 
   // Generate new tetromino
